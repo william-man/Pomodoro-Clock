@@ -1,0 +1,120 @@
+body {
+    background-color: #7FD1B9;
+}
+
+h2 {
+    margin: auto;
+    text-align: center;
+    padding-top: 1%;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Karla', sans-serif;
+}
+#clock {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 700px;
+    margin: auto;
+    margin-top:3%;
+    
+}
+.state_label {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 30px;
+    height: 400px;
+    width: auto;
+    gap: 3px;
+    font-family: 'Karla', sans-serif;
+    background-color: #EBBDB9;
+}
+#sessionclock{
+    margin-right: 5px;
+}
+#breakclock{
+    margin-left: 5px;
+}
+.display {
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    padding-top: 10px;
+    margin-top: 0px;
+    font-size: 38px;
+    font-family: 'Orbitron', sans-serif;
+    
+}
+.heading{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    font-size: 26px;
+}
+.increment{
+    text-align: center;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    
+}
+.decrement{
+    text-align: center;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    
+}
+.start {
+    text-align: center;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.stop{
+    text-align: center;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.reset{
+    text-align: center;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.clockbuttons{
+    border-radius: 10px;
+    border: none;
+    transition: 0.3s;
+    width: 95px;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+    background-color: #F6D7CD;
+    
+}
+.clockbuttons:hover {
+    background-color: #DE6E4B;
+}
+
+.timerstate {
+    opacity: 0;
+    text-align: center;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    font-size: 20px;
+    font-weight: bold;
+}

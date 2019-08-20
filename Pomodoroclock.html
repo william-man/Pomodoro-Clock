@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+    <title>PomodoroClock</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="pomodoro.js"> </script>
+    <link rel="stylesheet" href = "pomodoro.css">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <main>
+        <h2>Pomodoro Timer</h2>
+        <div id="clock">
+            <div class="state_label" id="sessionclock">
+                <h3 class="heading">Session Timer</h3>
+                <button type="button" id="add-time" class="clockbuttons increment">+1 min</button>
+                <button type="button" id="minus-time" class="clockbuttons decrement">-1 min</button><br>
+                <button type="button" id="session-start"class="clockbuttons start">Start</button>
+                <button type="button" id="session-stop"class="clockbuttons stop">Stop</button>
+                <button type="button" id="session-reset"class="clockbuttons reset">Reset</button>
+                 <p id="session_timer" class="display"></p>
+                <p class="timerstate" id="sessionstate">Timer in session</p>
+               
+                <audio id="sessionAlarm">
+                    <source src="Loud_Alarm_Clock_Buzzer-Muk1984-493547174.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <div class="state_label" id="breakclock">
+                <h3 class="heading">Break Timer</h3>
+                <button type="button" id="break-add-time"class="clockbuttons increment">+1 min</button>
+                <button type="button" id="break-minus-time"class="clockbuttons decrement">-1 min</button><br>
+                <button type="button" id="break-start"class="clockbuttons start">Start</button>
+                <button type="button" id="break-stop"class="clockbuttons stop">Stop</button>
+                <button type="button" id="break-reset"class="clockbuttons reset">Reset</button>
+                <p id="break_timer" class="display"></p>
+                <p class="timerstate" id="breakstate">Timer in session</p>
+            </div>
+
+        </div>
+    </main>
+</body>
+</html>
