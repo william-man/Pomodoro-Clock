@@ -1,1 +1,1 @@
-All relevant files for the Pomodoro Clockj project.
+All relevant files for the Pomodoro Clock project.
