@@ -4,8 +4,6 @@ This project is a simple and easy to use timer that allows the user to practice 
 
 To view a demo : [Link](https://wman27.github.io/Pomodoro-Clock-demo/)  
 
-To view the source : [Link](https://github.com/wman27/Pomodoro-Clock-demo)
-
 ### Briefing
 
 The requirements this project must satisfy are:
